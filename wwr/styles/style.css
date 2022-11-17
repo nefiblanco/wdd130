@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@600&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center; 
@@ -23,6 +26,9 @@ main section{
 }
 body{
     background-color:rgb(238, 245, 251);
+    font-family: 'Montserrat', sans-serif, Arial;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:#219ebc;
@@ -39,6 +45,10 @@ nav a:hover{
     background-color: #219ebc;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #023047;
@@ -46,15 +56,20 @@ nav a:hover{
 }
 .msg{
     background-color: #219ebc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:#023047;
     color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:white;
     text-decoration: none;
     font-size: 1.2em;
+    padding-top: 15px;
 }
 footer a:hover{
     color:black;
@@ -62,15 +77,21 @@ footer a:hover{
 }
 .home-title{
     color:white;
+    font-family: 'Source Sans Pro', 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .msg h2{
     color:whitesmoke;
+    font-family: 'Source Sans Pro', 'Arial Narrow Bold', sans-serif;
 }
 .msg p{
     color:whitesmoke;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo, .icon{
     width: 80px;
@@ -80,4 +101,20 @@ h4{
 }
 .media-icon{
     width:10%;
+    padding-top: 10px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.campin, .rapids, .rivers{
+    margin: 200px 0;
+}
+.card-img .picture{
+    border: 10px solid #d9c2a3;
+}
+main section {
+    box-sizing: border-box;
 }
