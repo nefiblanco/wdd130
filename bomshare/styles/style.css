@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@600&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    background-color:rgb(238, 245, 251);
+    font-family: 'Montserrat', sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#219ebc;
+    opacity: .9;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a{
+    text-align: center;
+    padding: 50px;
+    color:black;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #ffb703;
+    color: white;  
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 100px;
+}
+#hero-img{
+    width:100%;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+#hero-box {
+    grid-column: 1/5;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 400px;
+}
+#background1{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 400px;
+}
+#hero-msg h1{
+    text-align: center;
+    color: white;
+}
+#hero-msg h4{
+    text-align: center;
+    color: white; 
+    font-size: 15px;
+}
+.button-box{
+    text-align: center; 
+}
+.background {
+    height: 200px;
+    background-color:#023047;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.book, .mytestimony{
+    background-color: #219ebc;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.book:hover, .mytestimony:hover{
+    background-color: #ffb703;
+    color: white;  
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.mid-message{
+    grid-column:2/10;
+    grid-row: 1/2;
+}
+.bottom-hero{
+    width: 100%;
+    grid-column: 1/11;
+    grid-row: 2/6;
+}
+#background2{
+    height:250px;
+    grid-column: 5/10;
+    grid-row: 3/5;
+}
+.msg{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    grid-column: 5/10;
+    grid-row: 3/5;
+}
+.msg p{
+    padding : 20px;
+}
+footer{
+    background-color:#023047;
+    color:white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding-top: 15px;
+}
+footer a:hover{
+    color:#ffb703;
+}
+.social{
+    width:10%;
+    padding-top: 10px;
+}
+.smlogo{
+    width:1.5em;
+    height:1.5em;
+}
